@@ -1,0 +1,71 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-normal {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.custom-bold {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.custom-bolder {
+  font-weight: 700;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+}
+
+.profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.gender,
+.field {
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  display: flex;
+  gap: 1rem;
+}
+
+.pg-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.pg-btn {
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #283d53;
+  color: white;
+  /* border: 1px solid #222; */
+  border: transparent;
+}
+
+.pg-btn:hover {
+  opacity: 0.75;
+}
+
+.active-page {
+  border: 2px solid white;
+}
+
+/* .profile-card {
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px;
+} */
